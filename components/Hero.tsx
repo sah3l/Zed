@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden rounded-3xl bg-zedOlive/30 p-10 md:p-16">
       <div className="absolute -right-24 -top-24 opacity-10">
-        <Image src="/bunny.png" alt="Bunny" width={260} height={260} />
+        <Image src="/bunny-optimized.webp" alt="Bunny" width={260} height={260} priority />
       </div>
       <div className="max-w-3xl">
         <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
