@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f7f6f8;
+  --ink: #1f1f22;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.sparkle {
+  position: relative;
+}
+.sparkle::after {
+  content: "✨";
+  position: absolute;
+  right: -0.8rem;
+  top: -0.8rem;
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
